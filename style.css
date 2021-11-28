@@ -25,8 +25,16 @@
     margin-top: 3%;
 }
 
-.main-img {
+#main-img {
     display: flex;
     height: 400px;
     width: 900px;
+}
+
+#img-caption {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-content: center;
 }
