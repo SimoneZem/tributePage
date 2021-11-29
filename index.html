@@ -6,10 +6,9 @@
 </head>
 
 <!--
-User Story #7: I should see an a element with a corresponding id="tribute-link",
- which links to an outside site that contains additional information about the subject of the tribute page.
- HINT: You must give your element an attribute of target 
- and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+User Story #8: The img element should responsively resize, 
+relative to the width of its parent element, 
+without exceeding its original size.
 -->
 
 <body>
@@ -20,16 +19,16 @@ User Story #7: I should see an a element with a corresponding id="tribute-link",
       <h2 id="subtitle">
         When hard distortion means consistance
       </h2>
-      <img id="main-img" src="https://www.infiniteart.it/wp-content/uploads/2015/12/bassista-Muse-in-concerto-1080x626.png" alt="Chris Wostenholme">
+      <img id="main-img" src="https://www.infiniteart.it/wp-content/uploads/2015/12/bassista-Muse-in-concerto-1080x626.png" alt="Chris Wostenholme" width="700px" height="350px"> 
       <p id="img-caption">
         The Emperor of Big Muff and effects specialist
       </p>
     </div>
     <div>
-      <h3 class="storyline">
-        Here's a short storyline of his life
-      </h3>
       <div id="other-box">
+        <h3 class="storyline">
+          Here's a short storyline of his life
+        </h3>
       <ul id="list">
         <li> 
           <b>1978:</b> Born in Rotherham, Yorkshire, UK,
@@ -50,21 +49,20 @@ User Story #7: I should see an a element with a corresponding id="tribute-link",
           <b>2010:</b> Chris get some serious problem with alcohol, 
         </li>
         <li>
-          <b>2015:</b> He He contributed to Rick Parfitt's posthumous solo album Over and Out,
+          <b>2015:</b> He contributed to Rick Parfitt's posthumous solo album Over and Out,
         </li>
         <li>
           <b>2018:</b> After his divorce from Kelly he married his actually wife, Caris Ball.
         </li>
       </ul>
-      <p id="tribute-link">
-        <b>If you want to know more about thi amazing and peculiar bassist you can  </b>
-          <a href="https://en.wikipedia.org/wiki/Chris_Wolstenholme" target="_blank"> Visit Wikipedia</a>
-    </p>
     </div>
+    <p id="tribute-link">
+      <b>If you want to know more about this amazing and peculiar bassist you can  </b>
+        <a href="https://en.wikipedia.org/wiki/Chris_Wolstenholme" target="_blank"> Visit Wikipedia </a>
+    </p>
     <!--
-      Focus on hypertext link:when i shown my work in finder 
-      i see that there isn't space between "can" and "visit".
-      I don't know why and i don't know how to fix that.
+      Something goes wrong with ul list.
+      When i resize the page the hypertext link goes in the middle 
     -->
 </body>
 </html>
